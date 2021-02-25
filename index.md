@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+
+    <title>HackTheHope</title>
+</head>
+
+<body>
+
+    <div class="header"> Register now before the deadline !</div>
+
+    <div class="nav">
+        <div class="container">  
+            <div class="img">
+            <img src="Logo0.png" alt=""></div>
+            <ul>
+                <br>
+                <li class="active">HOME</li>
+                <li><a href="#cse">CSE</a>
+                <li><a href="#about">ABOUT</a>
+                <li><a href="#speakers">SPEAKERS</a>
+                <li><a href="#timer">COUNTDWON</a>
+                <li><a href="#sponsor">SPONSORS</a>
+                <li class="button"> <a href="Form.html">Register</a></li>
+            </ul>
+        </div>
+    </div>
+   
+    <div class="clear"></div>
+
+    <section class="map"></section>
+
+    <section id="cse">
+        <div class="container">
+            <h3>CSE</h3>
+            <div class="imgDE">
+                <img src="CseLogo.jpg" alt="CseLogo">
+            </div>
+            <div class="Cse">
+                <br><p>CSE club is one of the largest scientific clubs in Algeria. Working since 2008, our main goal is to offer original and innovative content throughout our hackathons, workshops, training and social media.
+                </p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h3>ABOUT</h3>
+            <div class="about-us">
+                <p>More than 150 Hackers together for a weekend-long <br> 
+                    experience trying with there creativity and skills to find <br> 
+                    a technical solution to help people with disabilities,<br> 
+                    it's amazing ! what are you waiting for ? <br>
+                    show us your skills ,  <span><a href="https://docs.google.com/forms/d/e/1FAIpQLSfqMqrgtrtZydQM6g1Ubd8B3_lroM3mxi5Wj_YD1UXEMvRp2g/viewform">Register now!</a></span> </p>
+            </div>
+            <div class="imgDE">
+                <img src="FamilyHelp.png" alt="FamilyHelp">
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <section id="speakers">
+        <h2>SPEAKERS</h2>
+        <div class="con">
+            <div class="team">
+                <img src="Mark.png" alt="mark">
+                <h4>Mark zuckerberg</h4>
+                <p>Facebook CEO & Founder</p>
+            </div>
+
+            <div class="team">
+                <img src="Bill.png" alt="mark">
+                <h4>Bill Gates</h4>
+                <p>Co-founder of MICROSOFT</p>
+            </div>
+
+            <div class="team">
+                <img src="Elon.png" alt="mark">
+                <h4>Elon musk</h4>
+                <p>Founder, CEO & CTO of SpaceX</p>
+            </div>
+        </div>
+    </section>
+
+<section >
+    <div class="container">
+        <h2>THE TRAIN DEPARTS IN</h2>
+    </div>
+</section>
+
+<section id="timer">
+<div class="container">
+<div id="clockdiv">
+
+    <div class="count"> 
+      <span class="days"></span> &nbsp&nbsp&nbsp&nbsp: 
+      <div class="smalltextDay">Days</div>
+    </div>
+    
+    <div class="count">
+      <span class="hours"></span> &nbsp&nbsp&nbsp&nbsp:
+      <div class="smalltextHour">Hours</div>
+    </div>
+
+    <div class="count">
+      <span class="minutes"></span> &nbsp&nbsp&nbsp:
+      <div class="smalltextMinute">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMinutes</div>
+    </div>
+ 
+    <div class="count">
+      <span class="seconds"></span>
+      <div class="smalltextSecond">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSeconds</div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<section id="sponsor">
+     <div class="container">
+         <h2>
+             SPONSORS
+         </h2>
+
+        <div class="spon">
+             <a href="https://yassir.com/">
+             <img src="Yassir.png" alt="Yassir"></a>
+        </div>
+
+        <div class="spon">
+            <a href=" https://www.microsoft.com/en-us">
+            <img src="Microsoft.png" alt="MICROSOFT"></a>
+        </div>
+
+        <div class="spon">
+            <a href="https://en.unesco.org/">
+            <img src="UNESCO.png" alt="UNESCO"></a>
+      </div>
+
+     </div>
+    
+
+</section>
+
+<div class="foot"> COPYRIGHT &copy; 2021 HACK THE HOPE </div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
