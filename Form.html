@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hack The Hope registrations</title>
+        <link rel="stylesheet" href="style_form.css">
+        
+        
+    </head>
+
+    <body>
+        <h1 id="titre">Register now !</h1>
+    <form method="post" action="traitement.php" >
+        <fieldset>
+            <legend id="inf">Info</legend>
+         <p><label id="name" for="First Name" class="qst">First Name</label><br/>  <input type="text" name="First Name" id="champ"required/></p>   
+         <p><label for="Last Name"class="qst">Last Name</label><br/>  <input type="text" name="Last Name" id="champ"required /></p>
+         <p><label for="Email Adress"class="qst">Email Adress</label><br/>  <input type="email" name="Email Adress" id="champ"required /></p>
+         <p><label for="Phone Number"class="qst">Phone Number</label><br/>  <input type="tel" name="Phone Number" id="champ"/></p>
+         <p><label for="City"class="qst">City</label><br/>  <input type="text" name="City" id="champ"required /></p>
+         <p id="choix"required >Are you :<br/>
+            <input type="radio" name="occupation" value="A student" id="A_student" /> <label for="A student">A student</label><br />
+            <input type="radio" name="occupation" value="An alumni" id="An_alumni" /> <label for="An alumni">An alumni</label><br />
+            <input type="radio" name="occupation" value="Other" id="Other" /> <label for="Other">Other</label><br />
+         </p>
+        </fieldset><br/><br/>
+        <fieldset>
+            <legend id="inf">Talk about yourself !</legend>
+         <p>
+            <label for="motivation"class="qst">What motivates you to join us in this event ?</label><br />
+            <textarea name="motivation" id="champ"required ></textarea>
+         </p>
+         <p>
+             <label for="What do you think this event will add to you ?"id="qst">What do you think this event will add to you ?</label><br />
+            <textarea name="What do you think this event will add to you ?" id="champ"required></textarea>
+         </p>
+         <p>
+            <label for="Your experience"class="qst">Did you pass a hard time during particular conditions and want to talk about it ?</label><br />
+            <textarea name="Your experience" id="champ"required></textarea>
+         </p>
+         <p>
+            <label for="events attended before"class="qst">Did you attend an event or a campaign which deals with issues related to people in need ?</label><br />
+            <textarea name="events attended before" id="champ"required></textarea>
+         </p>
+         <p>
+            <label for="Solutions"class=qst>If you have a solution for an issue, do you have some plans to make it real after this event ?</label><br />
+            <textarea name="Solutions" id="champ"required></textarea>
+         </p>
+         <p>
+            <label for="Add something"class="qst">Do you want to add something ?</label><br />
+            <textarea name="Add something" id="champ"></textarea>
+         </p>
+        </fieldset><br/><br/>
+        <input type="submit" value="Submit" id="button"/>
+    </form>
+    </body>
+</html>

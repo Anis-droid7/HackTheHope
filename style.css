@@ -1,0 +1,337 @@
+.container {
+    width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color:#1D1D1D;
+    color: #fff;
+    padding: 8px;
+    
+}
+
+.nav {
+    float: left;
+    margin-top: 7px;
+
+   
+}
+
+.img{
+    float: left;
+    margin-right: 100px;
+    margin-left:10px;
+      
+}
+
+.nav .img img {
+    width: 170px;
+    height: 70px ;
+}
+
+ul {
+    list-style:none;
+    padding-left:180px;
+    overflow:hidden;
+    text-decoration: none;
+    
+}
+
+ul li {
+    float:left;
+    padding:10px;
+    padding-top:0 ;
+    text-decoration: none;
+    
+
+}
+
+li.active {
+    color: #F08F28;
+    
+}
+
+.button {
+    position: absolute;
+    top: 65px;        left: 1240px; 
+    border: 2px solid #F08F28;
+    border-radius: 8px;
+    padding: 5px 10px;
+    
+
+}
+
+
+.nav .button {
+    float: right;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    color: #F08F28;
+}
+
+
+/* start map */
+
+section.map {
+    background-image: url('Map.jpg');
+    height: 500px;
+    background-size: 100% 100%;
+    color: #fff;
+    font-size: 40px;
+    text-align:center;
+}
+
+/* end map */
+
+
+/* start Logo */
+
+#cse{
+    background-color:black;
+
+
+}
+#cse h3{
+    text-align: center;
+    font-size: 25px;
+    color:#003060;
+}
+
+#cse h3:hover{
+    color: #F08F28;
+}
+
+.Cse {
+    height: 150px;
+    overflow: hidden;
+    width: 50%;
+    background: linear-gradient(-60deg, #ff5e00, #ff5100, #003060, #003060 );
+    color:white;
+    position: absolute;
+    top: 800px;        left: 600px; 
+    opacity: 0.9;
+    border-radius: 20px;
+    color: yellow;
+    
+}
+
+.Cse:hover{
+    opacity: 1.0;
+}
+
+
+.Cse p {
+    line-height: 2;
+    
+}
+
+.imgDE {
+ 
+    float: left;
+    width: 35%;
+    
+}
+
+
+/* end Logo */
+
+
+/* start about */
+
+.about {
+    height: 286px;
+    overflow: hidden;
+
+}
+
+.about h3 {
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.about-us {
+    float: left;
+    width: 50%;
+}
+
+.about-us p {
+    line-height: 2;
+
+}
+.about-us p a {
+    text-decoration: none;
+    color: orange;
+}
+
+.about-us p span {
+    color: red;
+}
+
+.imgDE {
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.imgDE img {
+    width: 100%;
+}
+
+/* end about */
+
+
+/* start team */
+
+#speakers {
+    text-align: center;
+    font-size: 17px;
+}
+
+.con {
+    background-color: #F8F9FD;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.team {
+    width: 33.3333%;
+    float: left;
+}
+
+.team h4 {
+    margin: 0;
+}
+
+.team img {
+    border-radius: 50%;
+    width: 129px;
+    height:129px ;
+}
+
+/* end team */
+
+
+/* start timer */
+
+#timer {
+    background-color: #1D1D1D;
+    color: #fff;
+    padding: 40px; 
+
+}
+
+#clockdiv > div{
+    padding: 15px;
+    border-radius: 3px;
+    background-color: #1D1D1D;
+    display: inline-block;
+    font-size: 30px;
+  }
+
+#clockdiv div > span{
+    padding: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    background-color: #1D1D1D;
+    display: inline-block;
+    
+  }
+
+  .count{
+    position: relative;
+
+  }
+
+  .smalltextDay{
+    position: absolute;
+    top: 80px; right: 55px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .smalltextHour{
+    position: absolute;
+    top: 80px; right: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .smalltextMinute{
+    position: absolute;
+    top: 80px; right: 35px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+  .smalltextSecond{
+    position: absolute;
+    top: 80px; left: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 40px;
+  }
+
+/* end timer */
+
+
+/* start sponsor */
+
+.sponsor {
+    padding: 25px;
+    padding-bottom: 50px;
+}
+
+.sponsor h2 {
+    margin: 30px;
+    margin-top: 7px;
+
+}
+
+.spon {
+    width: 33.33333%;
+    float: left;
+    margin-bottom: 45px;
+    
+}
+
+.spon img {
+    width: 120px;
+    height: 90px;
+}
+
+/* end sponsor */
+
+
+/* Start footer */
+
+.foot{
+    text-align: center;
+    background-color:#1D1D1D;
+    color: #fff;
+    padding: 8px;
+
+}
+
+/* End footer */
+
+
