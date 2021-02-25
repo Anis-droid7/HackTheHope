@@ -7,9 +7,9 @@
  #champ  {font-family: cursive;
       border-color:rgb(0, 255, 213);
       padding-left : 75px;
-       padding-right: 75px;
-       padding-top: 15px; 
-       padding-bottom: 15px;
+      padding-right: 75px;
+      padding-top: 15px; 
+      padding-bottom: 15px;
       text-align: center;
       font-size: 25px;
       }
@@ -18,9 +18,13 @@
 
 #titre {font-size: 60px;}
 
-#choix {font-size: 22px;}
+#choix {font-size: 22px;
+	    position: relative;
+		right: 200px;	    
+}
 
 #button {font-size: 50px;
+	 font-family: cursive;
          color :rgb(255, 115, 0);
          color-interpolation-filters: linearRGB;}
 
@@ -32,7 +36,7 @@ body {
 	text-align: center;
 	font-family: cursive;
 	margin-left:255px ;
-    margin-right:255px;
+        margin-right:255px;
 }
 
 @-webkit-keyframes gradient {
